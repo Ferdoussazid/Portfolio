@@ -45,6 +45,8 @@ nav{
     margin-top: 1%;
     width: 140px;
     border-radius: 100px;
+    filter: drop-shadow(1px 1px 8px gold);
+
     
 }
 
