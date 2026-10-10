@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 import { 
   Mail, 
   Phone, 
@@ -69,7 +70,7 @@ export const ContactConsole: React.FC = () => {
         {/* Soothing Header */}
         <div className="text-center max-w-xl mx-auto space-y-3 mb-12">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 dark:bg-cyan-500/10 border border-blue-500/20 dark:border-cyan-500/20 text-blue-600 dark:text-cyan-400 text-xs font-mono font-medium">
-            <Mail className="w-3.5 h-3.5" />
+            <Image src="/logo-mark.png" alt="FS Logo" width={14} height={14} className="w-3.5 h-3.5 object-contain" />
             <span>LET&apos;S CONNECT</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white tracking-tight">

@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import { ArrowUp, Mail, Phone } from "lucide-react";
 import { GithubIcon, LinkedinIcon } from "./Icons";
 import { PORTFOLIO_DATA } from "../data/portfolioData";
@@ -17,10 +18,14 @@ export const Footer: React.FC = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-5">
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-blue-600 to-cyan-500 p-[1.5px] shadow-sm">
-              <div className="w-full h-full bg-slate-900 dark:bg-[#050813] rounded-[10px] flex items-center justify-center font-bold text-xs text-white">
-                FS
-              </div>
+            <div className="w-8 h-8 rounded-xl bg-white dark:bg-white/[0.08] border border-slate-200/90 dark:border-white/10 p-1 flex items-center justify-center shadow-xs overflow-hidden">
+              <Image
+                src="/logo-mark.png"
+                alt="FS Logo"
+                width={32}
+                height={32}
+                className="w-full h-full object-contain"
+              />
             </div>
             <div>
               <span className="font-bold text-slate-900 dark:text-white text-sm block">

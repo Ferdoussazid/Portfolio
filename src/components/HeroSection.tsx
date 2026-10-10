@@ -36,8 +36,16 @@ export const HeroSection: React.FC<{ onOpenBkashSimulator: () => void }> = ({ on
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
           {/* Left Column: Bio & Highlights */}
           <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
-            {/* Soothing Status Pill */}
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-200/60 dark:bg-white/[0.04] border border-slate-300/80 dark:border-white/10 backdrop-blur-md shadow-xs">
+            {/* Soothing Status & Brand Pill */}
+            <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-slate-200/60 dark:bg-white/[0.04] border border-slate-300/80 dark:border-white/10 backdrop-blur-md shadow-xs">
+              <Image
+                src="/logo-mark.png"
+                alt="FS"
+                width={16}
+                height={16}
+                className="w-4 h-4 object-contain rounded-xs"
+              />
+              <span className="text-slate-300 dark:text-slate-600">•</span>
               <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500 dark:bg-emerald-400" />
@@ -174,6 +182,16 @@ export const HeroSection: React.FC<{ onOpenBkashSimulator: () => void }> = ({ on
 
               {/* Avatar Frame */}
               <div className="relative w-56 h-56 sm:w-60 sm:h-60 rounded-3xl p-1.5 bg-gradient-to-br from-blue-600/40 via-cyan-500/30 to-slate-800/60 border border-white/10 shadow-2xl overflow-hidden group">
+                {/* Official Brand Logo Badge */}
+                <div className="absolute top-3 right-3 z-20 w-8 h-8 rounded-xl bg-white/95 dark:bg-[#070c1a]/95 border border-slate-200/90 dark:border-white/15 p-1 shadow-md flex items-center justify-center backdrop-blur-sm group-hover:scale-110 transition-transform duration-300">
+                  <Image
+                    src="/logo-mark.png"
+                    alt="FS Official Logo"
+                    width={24}
+                    height={24}
+                    className="w-full h-full object-contain"
+                  />
+                </div>
                 <div className="relative w-full h-full rounded-[22px] overflow-hidden bg-[#060a15]">
                   <Image
                     src={PORTFOLIO_DATA.personal.avatar}

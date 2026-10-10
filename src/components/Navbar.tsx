@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import {
   Volume2,
   VolumeX,
@@ -100,10 +101,15 @@ export const Navbar: React.FC<{ onOpenBkashSimulator: () => void }> = ({ onOpenB
             onClick={(e) => handleNavClick(e as unknown as React.MouseEvent<HTMLAnchorElement>, "#hero")}
             className="flex items-center gap-2.5 group focus:outline-none transition-transform duration-200 hover:scale-[1.03] active:scale-[0.98]"
           >
-            <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-blue-600 to-cyan-500 p-[1.5px] transition-transform duration-300 group-hover:scale-110 group-hover:rotate-3 shadow-sm">
-              <div className="w-full h-full bg-slate-900 dark:bg-[#050813] rounded-[10px] flex items-center justify-center font-bold text-xs text-white">
-                FS
-              </div>
+            <div className="w-8 h-8 rounded-xl bg-white dark:bg-white/[0.08] border border-slate-200/90 dark:border-white/10 p-1 flex items-center justify-center transition-transform duration-300 group-hover:scale-110 group-hover:rotate-2 shadow-xs overflow-hidden">
+              <Image
+                src="/logo-mark.png"
+                alt="FS Logo"
+                width={32}
+                height={32}
+                className="w-full h-full object-contain"
+                priority
+              />
             </div>
             <div>
               <span className="font-bold tracking-tight text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-cyan-300 transition-colors text-sm">

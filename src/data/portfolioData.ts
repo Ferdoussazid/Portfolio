@@ -49,6 +49,8 @@ export const PORTFOLIO_DATA = {
     tagline: "Architecting High-Impact Web & Payment Systems • Founder of Crochethia",
     bio: "Software Engineer graduated from AIUB (CGPA 3.91, 4x Dean's List). Successfully engineered bKash tokenized payment gateways across 30+ client portals. Currently the Owner and Founder at Crochethia, a handcrafted crochet business based in Jashore, Khulna, Bangladesh, while engineering scalable web architectures.",
     avatar: "https://avatars.githubusercontent.com/u/78679926?v=4",
+    logo: "/logo.png",
+    logoMark: "/logo-mark.png",
     email: "ferdoussazid2015@gmail.com",
     phone: "+880 1775004380",
     rawPhone: "01775004380",
