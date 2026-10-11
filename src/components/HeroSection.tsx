@@ -17,7 +17,7 @@ export const HeroSection: React.FC<{ onOpenBkashSimulator: () => void }> = ({ on
   const roles = [
     "Owner & Founder @ Crochethia",
     "Fintech & bKash Gateway Specialist",
-    "AIUB Software Engineering (CGPA 3.91)",
+    "AIUB Software Engineering Graduate",
     "Full-Stack & Machine Learning Developer",
   ];
 
@@ -74,7 +74,7 @@ export const HeroSection: React.FC<{ onOpenBkashSimulator: () => void }> = ({ on
 
             {/* Soothing Bio Description */}
             <p className="text-sm sm:text-base text-slate-600 dark:text-slate-300 max-w-xl leading-relaxed font-sans">
-              Software Engineer graduated from <strong>AIUB</strong> (CGPA 3.91, 4x Dean&apos;s List). Engineered high-throughput <strong>bKash Tokenized Payment Gateways</strong> across 30+ client platforms at Hyper Systems LTD. Currently the Owner and Founder at{" "}
+              Software Engineer graduated from <strong>AIUB</strong>. Engineered high-throughput <strong>bKash Tokenized Payment Gateways</strong> across 30+ client platforms at Hyper Systems LTD. Currently the Owner and Founder at{" "}
               <a href="#crochethia" className="text-blue-600 dark:text-cyan-300 underline underline-offset-4 decoration-blue-500/40 dark:decoration-cyan-400/40 hover:decoration-blue-600 dark:hover:decoration-cyan-400 font-semibold">
                 Crochethia
               </a>

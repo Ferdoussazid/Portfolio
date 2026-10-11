@@ -19,7 +19,7 @@ A portfolio web application built with **Next.js 14 (App Router)**, **TypeScript
   - **PostgreSQL**: ACID Relational Schema & Indexes
 - **All 25 GitHub Repositories Explorer**: Real-time searchable and filterable directory of all 25 public repositories from his GitHub profile.
 - **Career Timeline @ Hyper Systems LTD**: Detailing his Software Developer role on the bKash Gateway squad and the enterprise **Raadar RMS** Vue.js frontend team.
-- **Academic Honors & 4x Dean's List**: Honoring his **3.91 CGPA** from American International University - Bangladesh (AIUB) with Dean's List badges and academic references.
+- **Education & Academic Honors**: High honors from American International University - Bangladesh (AIUB) with 4x Dean's List badges and academic references.
 - **Heavy CSS & Visual Effects**:
   - Interactive HTML5 constellation canvas with cursor attraction lines
   - Aurora ambient glowing mesh orbs

@@ -54,7 +54,7 @@ export default function Home() {
           <SkillsMatrix />
         </ScrollReveal>
 
-        {/* 6. Education: AIUB CGPA 3.91 & 4x Dean's List with All Semester GPAs */}
+        {/* 6. Education */}
         <ScrollReveal delay={50}>
           <AcademicHonors />
         </ScrollReveal>

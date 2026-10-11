@@ -21,15 +21,15 @@ export const AcademicHonors: React.FC = () => {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Section Header */}
         <div className="text-center max-w-xl mx-auto space-y-3 mb-12">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-600 dark:text-amber-300 text-xs font-mono font-medium">
-            <Award className="w-3.5 h-3.5" />
-            <span>ACADEMIC DISTINCTION</span>
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 dark:bg-cyan-500/10 border border-blue-500/20 dark:border-cyan-500/20 text-blue-600 dark:text-cyan-400 text-xs font-mono font-medium">
+            <GraduationCap className="w-3.5 h-3.5" />
+            <span>ACADEMIC BACKGROUND</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white tracking-tight">
-            Education &amp; Dean&apos;s List Honors
+            Education
           </h2>
           <p className="text-slate-600 dark:text-slate-400 text-xs sm:text-sm">
-            Continuous academic excellence at AIUB recognized through 4 consecutive Dean&apos;s List Awards.
+            Academic qualifications, curriculum specialization, and certified distinction from American International University - Bangladesh.
           </p>
         </div>
 
@@ -96,7 +96,7 @@ export const AcademicHonors: React.FC = () => {
             <div className="flex items-center gap-2 text-xs font-mono text-slate-700 dark:text-slate-300">
               <span className="w-2 h-2 rounded-full bg-amber-500 dark:bg-amber-400 animate-pulse" />
               <span className="font-bold tracking-wider uppercase text-amber-600 dark:text-amber-300">
-                Dean&apos;s List Honor Certificates (Attached Serially)
+                Dean&apos;s List Honor Certificates
               </span>
             </div>
             <span className="text-[11px] font-mono text-slate-500 dark:text-slate-400">

@@ -17,7 +17,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   metadataBase: new URL("https://ferdoussazid.com"),
   title: "MD. Ferdous Sazid | Software Developer & Owner at Crochethia",
-  description: "Portfolio of MD. Ferdous Sazid — Software Engineer & Owner of Crochethia based in Jashore, Khulna, Bangladesh. AIUB Graduate (CGPA 3.91, 4x Dean's List), specialized in bKash tokenized payment gateways, modern Next.js web systems, and Machine Learning.",
+  description: "Portfolio of MD. Ferdous Sazid — Software Engineer & Owner of Crochethia based in Jashore, Khulna, Bangladesh. AIUB Graduate, specialized in bKash tokenized payment gateways, modern Next.js web systems, and Machine Learning.",
   keywords: [
     "MD Ferdous Sazid",
     "Ferdous Sazid",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   authors: [{ name: "MD. Ferdous Sazid", url: "https://github.com/Ferdoussazid" }],
   openGraph: {
     title: "MD. Ferdous Sazid | Software Developer & Owner at Crochethia",
-    description: "Software Engineer & Owner of Crochethia in Jashore, Khulna, Bangladesh. AIUB CGPA 3.91, bKash fintech integrations, Next.js, and ML.",
+    description: "Software Engineer & Owner of Crochethia in Jashore, Khulna, Bangladesh. AIUB Graduate, bKash fintech integrations, Next.js, and ML.",
     url: "https://github.com/Ferdoussazid",
     siteName: "MD. Ferdous Sazid Portfolio",
     images: [

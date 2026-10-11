@@ -47,7 +47,7 @@ export const PORTFOLIO_DATA = {
     shortName: "Ferdous Sazid",
     title: "Software Developer & Owner at Crochethia",
     tagline: "Architecting High-Impact Web & Payment Systems • Founder of Crochethia",
-    bio: "Software Engineer graduated from AIUB (CGPA 3.91, 4x Dean's List). Successfully engineered bKash tokenized payment gateways across 30+ client portals. Currently the Owner and Founder at Crochethia, a handcrafted crochet business based in Jashore, Khulna, Bangladesh, while engineering scalable web architectures.",
+    bio: "Software Engineer graduated from AIUB. Successfully engineered bKash tokenized payment gateways across 30+ client portals. Currently the Owner and Founder at Crochethia, a handcrafted crochet business based in Jashore, Khulna, Bangladesh, while engineering scalable web architectures.",
     avatar: "https://avatars.githubusercontent.com/u/78679926?v=4",
     logo: "/logo.png",
     logoMark: "/logo-mark.png",
@@ -79,7 +79,7 @@ export const PORTFOLIO_DATA = {
   stats: [
     { label: "Ventures", value: "Crochethia", detail: "Founder • Est. Nov 2025" },
     { label: "Fintech Gateways", value: "30+", detail: "bKash Tokenized Deployments" },
-    { label: "Academic CGPA", value: "3.91", detail: "AIUB • 4x Dean's List Award" },
+    { label: "Academic Honors", value: "4x", detail: "Dean's List Award Recipient" },
     { label: "Location", value: "Jashore", detail: "Khulna, Bangladesh" },
   ],
   experience: [
